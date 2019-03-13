@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Classes", "Classes/**/*.swift"
   spec.exclude_files = "Classes/Exclude"
+    spec.swift_version = "4.0"
 
   # spec.public_header_files = "TopslideTest/TopslideTest/Classes/*.h"
 
